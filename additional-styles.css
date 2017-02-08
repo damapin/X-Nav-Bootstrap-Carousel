@@ -1,0 +1,9 @@
+#carousel-example-generic{
+	width: 720px;
+  height: 440px;
+  margin-left: 60px;
+}
+
+.carousel-inner{
+  height: 440px;
+}
