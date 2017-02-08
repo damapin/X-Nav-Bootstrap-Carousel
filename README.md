@@ -24,4 +24,4 @@ web resultante.
 
 ## Ver resultado
 
-[Try me](https://github.com/damapin/X-Nav-Bootstrap-Carousel/)
+[Try me](https://github.com/damapin.github.io/X-Nav-Bootstrap-Carousel/index.html)
