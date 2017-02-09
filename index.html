@@ -87,11 +87,13 @@
     function deploy_alert(type){
       alert=document.getElementById('alert');
         if(type){
-          alert.classList.add('alert\ alert-success');
+          alert.classList.add('alert');
+          alert.classList.add('alert-success');
           alert.innerHTML="Muchas gracias";
         }
         else {
-          alert.classList.add('alert\ alert-warning');
+          alert.classList.add('alert');
+          alert.classList.add('alert-warning');
           alert.innerHTML="Siento que no te hayan gustado"
         }
       }

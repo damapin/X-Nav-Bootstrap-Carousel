@@ -7,6 +7,11 @@
   clear: both;
 }
 
+.alert{
+  width: 75%;
+  margin: 20px 0 25px 60px;
+}
+
 .element-header{
   margin: 20px 0 25px 60px;
   padding: 0 20px 10px 50px;
