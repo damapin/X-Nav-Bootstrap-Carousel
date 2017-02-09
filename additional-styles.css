@@ -7,3 +7,14 @@
 .carousel-inner{
   height: 440px;
 }
+
+#carousel-header{
+  margin: 20px 0 25px 60px;
+  padding: 0 20px 10px 50px;
+  text-align: center;
+  color: white;
+  border: solid 1px;
+  border-radius: 8px;
+  background-color: #4080bf;
+  width: 720px;
+}
