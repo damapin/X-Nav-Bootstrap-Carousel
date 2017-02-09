@@ -10,91 +10,112 @@
   <!-- Carousel extra styles -->
   <link rel="stylesheet" href="css/carousel.css">
   <!-- additional styles -->
-  <link rel="stylesheet" href="additional-styles.css">
+  <link rel="stylesheet" href="css/additional-styles.css">
+  <link rel="stylesheet" href="css/bootsnip-element.css">
 </head>
 <body>
-  <div id="enunciado">
-    <h1>Esto es un ejercicio para hacer una página para la ETSIT URJC con componentes de Boostrap.</h1>
+  <div id="container">
+    <div id="enunciado">
+      <h1>Esto es un ejercicio para hacer una página para la ETSIT URJC con componentes de Boostrap.</h1>
 
-    <p>La página web ha de usar al menos:</p>
-    <ul>
-      <li>Un <i>carousel</i> (con su barra de navegación)</li>
-      <li>Al menos dos componentes más de Boostrap (a elección del alumno)</li>
-      <li>Al menos un componente de <a href="http://www.bootsnipp.com">Bootsnipp</a></li>
-    </ul>
-  </div>
-
-  <div class="element-header">
-    <h2>Elemento carousel</h2>
-  </div>
-  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <!-- img src="https://dl.dropboxusercontent.com/u/43752415/city-lights.jpg" alt="Luces de ciudad" -->
-        <img src="images/city-lights.jpg" alt="Luces de ciudad">
-      </div>
-
-      <div class="item">
-        <!--img src="https://dl.dropboxusercontent.com/u/43752415/niebla.jpg" alt="Niebla en la montaña"-->
-        <img src="images/niebla.jpg" alt="Niebla en la montaña">
-      </div>
-
-      <div class="item">
-        <!--img src="https://dl.dropboxusercontent.com/u/43752415/oriente.jpg" alt="Una calle de oriente"-->
-        <img src="images/oriente.jpg" alt="Una calle de oriente">
-      </div>
-
+      <p>La página web ha de usar al menos:</p>
+      <ul>
+        <li>Un <i>carousel</i> (con su barra de navegación)</li>
+        <li>Al menos dos componentes más de Boostrap (a elección del alumno)</li>
+        <li>Al menos un componente de <a href="http://www.bootsnipp.com">Bootsnipp</a></li>
+      </ul>
     </div>
 
-    <!-- Controls -->
-    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-  <div class="element-header">
-    <h2>¿Te han gustado las imágenes?</h2>
-  </div>
-  <div id="buttons">
-    <button type="button" class="btn btn-default btn-lg" aria-label="Left Align" onClick="deploy_alert(1)">
-      <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Si
-    </button>
+    <div class="element-header">
+      <h2>Elemento carousel</h2>
+    </div>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
 
-    <button type="button" class="btn btn-default btn-lg" onClick="deploy_alert(0)">
-      <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> No
-    </button>
-  </div>
-  <div id="alert" role="alert"></div>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <!-- img src="https://dl.dropboxusercontent.com/u/43752415/city-lights.jpg" alt="Luces de ciudad" -->
+          <img src="images/deparIII-edificio3.JPG" alt="Departamental III, campus de Fuenlabrada">
+        </div>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  <script src="js/docs.min.js"></script>
-  <script type="text/javascript" charset="utf-8">
-    function deploy_alert(type){
-      alert=document.getElementById('alert');
+        <div class="item">
+          <!--img src="https://dl.dropboxusercontent.com/u/43752415/niebla.jpg" alt="Niebla en la montaña"-->
+          <img src="images/deporte-estadio.JPG" alt="Estadio campus de Fuenlabrada">
+        </div>
+
+        <div class="item">
+          <!--img src="https://dl.dropboxusercontent.com/u/43752415/oriente.jpg" alt="Una calle de oriente"-->
+          <img src="images/aularioII-edificio.JPG" alt="Aulario II campus de Fuenlabrada">
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="element-header">
+      <h2>¿Te han gustado las imágenes?</h2>
+    </div>
+    <div id="buttons">
+      <button type="button" class="btn btn-default btn-lg" aria-label="Left Align" onClick="deploy_alert(1)">
+        <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Si
+      </button>
+
+      <button type="button" class="btn btn-default btn-lg" onClick="deploy_alert(0)">
+        <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> No
+      </button>
+    </div>
+    <div id="alert" class="alert" role="alert"></div>
+
+    <div class="element-header">
+      <h2>Elemento de Bootsnip</h2>
+    </div>
+
+    <div class="bs-calltoaction bs-calltoaction-primary">
+      <div class="row">
+        <div class="col-md-9 cta-contents">
+          <h1 class="cta-title">Ve a la página oficial de la ETSIT</h1>
+          <div class="cta-desc">
+            <p>Pulsa el botón para ir a la página de la ETSIT.</p>
+          </div>
+        </div>
+        <div class="col-md-3 cta-button">
+          <a href="https://www.urjc.es/universidad/facultades/escuela-tecnica-superior-de-ingenieria-de-las-telecomunicaciones/content/89-etsit-escuela-tecnica-superior-de-ingenieria-de-telecomunicacion/" class="btn btn-lg btn-block btn-primary">Ir</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      function deploy_alert(type){
+        alert=document.getElementById('alert');
         if(type){
-          alert.classList.add('alert\ alert-success');
+          alert.classList.add('alert-success');
           alert.innerHTML="Muchas gracias";
         }
         else {
-          alert.classList.add('alert\ alert-warning');
+          alert.classList.add('alert-warning');
           alert.innerHTML="Siento que no te hayan gustado"
         }
       }
-  </script>
+    </script>
+  </div>
 </body>
 </html>
